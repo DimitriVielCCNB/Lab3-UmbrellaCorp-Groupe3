@@ -1,3 +1,34 @@
+Description de l'entreprise: Umbrella Corporation est créée en 1968 et est impliquée dans l'informatique, l'armement, l'aérospatial, les produits cosmétiques, etc.
+
+Gamme de produits/services: Divers secteurs.
+
+But principal: Promouvoir des produits , Offrir des services , Faire des ventes , Acheter des produits.
+
+Langue(s) du site: Français/Anglais
+
+=> Structure du Site (Pages) :
+#=============================#
+index.html------------------------> Acceuil
+cosmetic_products.html------------> Products Cosmétiques
+computer_products.html------------> Products Informatiques
+chemical_products.html------------> Produit Chimiques
+health_food_products.html---------> Health Foods
+medical_equipment_products.html---> Équipement Médical
+contact.html----------------------> Contact
+
+=> Les détails du client :
+#==========================#
+Nom de l'entreprise du client: Umbrella Corporation
+Date de l'analyse: 16-Nov-23
+Nom du contact: Dimitri Viel
+Numéro de téléphone: 555-5555
+Adresse courriel: info@umbrella.com
+Addresse: N/A
+Raison pour un nouveau site web: Le client souhaite moderniser son site et éviter les suspicions du gouvernement
+Date prévue de lancement: 28-Nov-23
+Budget: N/A
+
+
 # Lab3-UmbrellaCorp
 A giant, multinational pharmaceutical corporation that produces many daily use goods as a cover for its primary focus; the production of biological weapons. The source of some of the most deadly viruses found in the Resident Evil series, Umbrella Corporation and its backers are among the franchise's core antagonistic forces.
 <hr>
