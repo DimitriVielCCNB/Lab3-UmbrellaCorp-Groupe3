@@ -8,6 +8,7 @@ Langue(s) du site: Français/Anglais
 
 => Structure du Site (Pages) :
 #=============================#
+
 index.html------------------------> Accueil
 cosmetic_products.html------------> Products Cosmétiques
 computer_products.html------------> Products Informatiques
@@ -18,6 +19,7 @@ contact.html----------------------> Contact
 
 => Les détails du client :
 #==========================#
+
 Nom de l'entreprise du client: Umbrella Corporation
 Date de l'analyse: 16-Nov-23
 Nom du contact: Dimitri Viel
