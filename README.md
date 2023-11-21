@@ -8,25 +8,43 @@ Langue(s) du site: Français/Anglais
 
 => Structure du Site (Pages) :
 #=============================#
+
 index.html------------------------> Accueil
+
 cosmetic_products.html------------> Products Cosmétiques
+
 computer_products.html------------> Products Informatiques
+
 chemical_products.html------------> Produit Chimiques
+
 health_food_products.html---------> Health Foods
+
 medical_equipment_products.html---> Équipement Médical
+
 contact.html----------------------> Contact
+
 
 => Les détails du client :
 #==========================#
+
 Nom de l'entreprise du client: Umbrella Corporation
-Date de l'analyse: 16-Nov-23
+
+Date de l'analyse: 20-Nov-23
+
 Nom du contact: Dimitri Viel
+
 Numéro de téléphone: 555-5555
+
 Adresse courriel: info@umbrella.com
+
 Addresse: N/A
+
 Raison pour un nouveau site web: Le client souhaite moderniser son site et éviter les suspicions du gouvernement
+
 Date prévue de lancement: 28-Nov-23
+
 Budget: N/A
+
 
 
 # Lab3-UmbrellaCorp
