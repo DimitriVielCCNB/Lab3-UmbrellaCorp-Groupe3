@@ -8,7 +8,7 @@ Langue(s) du site: Français/Anglais
 
 => Structure du Site (Pages) :
 #=============================#
-index.html------------------------> Acceuil
+index.html------------------------> Accueil
 cosmetic_products.html------------> Products Cosmétiques
 computer_products.html------------> Products Informatiques
 chemical_products.html------------> Produit Chimiques
