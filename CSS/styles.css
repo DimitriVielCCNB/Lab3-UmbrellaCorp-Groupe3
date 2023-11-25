@@ -68,4 +68,65 @@ footer {
 }
 
 
-/* Ajouter plus des styles */
+/********* Styles health_food_products **********************************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Healthfood-container li {
+
+   margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 30%;
+
+    position: relative;
+    display: inline-block;
+
+}
+
+.Healthfood-container img {
+    width: 40%;
+    height: 25%;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Healthfood-container li:nth-child(3n) {
+    clear: both; /* Retour à la ligne après chaque troisième élément */
+}
+
+.zoom-image {
+    width: 350%;
+    height: 450%;
+    object-fit: cover;
+}
+
+
+.zoom-container {
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    display: none;
+}
+
+
+
+.Healthfood-container li:active .zoom-container {
+    position: absolute;
+    left: 52%;
+    width: 200%; /* Utiliser 100% pour maintenir les proportions originales */
+    height: 200%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.Healthfood-container li:hover img{
+       cursor: zoom-in; /* Changer le curseur au survol du zoom-container dans li */
+}
