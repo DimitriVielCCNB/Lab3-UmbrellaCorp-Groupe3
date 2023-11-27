@@ -171,7 +171,7 @@ ul {
 
 /* CSS */
 .add-to-cart-btn {
-    background-color: #4CAF50; /* Green background */
+    background-color: red; /* Green background #4CAF50*/
     border: none;
     color: white; /* White text */
     padding: 10px 20px; /* Padding around text */
@@ -187,7 +187,7 @@ ul {
 
 /* Hover effect */
 .add-to-cart-btn:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #333; /* Darker green on hover #45a049*/
 }
 
 
