@@ -54,26 +54,7 @@ footer {
     padding: 10px;
 }
 
-/* Styles pour les petits écrans */
-@media screen and (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    nav ul li {
-        margin-right: 0;
-    }
-
-    nav ul li a {
-        margin-bottom: 10px; /* Espacement entre les liens */
-    }
-
-    .lang-bar {
-        left: 35%;
-      }
-
-}
 
 
 /********* Styles health_food_products **********************************/
@@ -228,14 +209,7 @@ ul {
 
 }
 
-@keyframes marquee {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
+
 
 /* Styles pour la barre de sélection de langue */
 .lang-bar {
@@ -318,6 +292,7 @@ ul {
   }
   textarea{
     height: 100px;
+    width: 100%;
    
   }
   .button{
@@ -340,3 +315,40 @@ strong{
     color: red;
 }
  
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+/* Styles pour les petits écrans */
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-right: 0;
+    }
+
+    nav ul li a {
+        margin-bottom: 10px; /* Espacement entre les liens */
+    }
+
+    .lang-bar {
+        left: 35%;
+      }
+
+      .Contact1{
+        margin: 50px 10%;
+
+      }
+
+}
