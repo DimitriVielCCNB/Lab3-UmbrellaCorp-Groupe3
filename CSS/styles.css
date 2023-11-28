@@ -68,6 +68,11 @@ footer {
     nav ul li a {
         margin-bottom: 10px; /* Espacement entre les liens */
     }
+
+    .lang-bar {
+        left: 35%;
+      }
+
 }
 
 
