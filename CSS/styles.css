@@ -49,6 +49,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+   /* position:absolute;*/
+    bottom: 0;
+    width: 100%;
 }
 
 /* Styles pour les petits écrans */
@@ -68,4 +71,238 @@ footer {
 }
 
 
-/* Ajouter plus des styles */
+/********* Styles health_food_products **********************************/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Healthfood-container li {
+
+   margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 30%;
+
+    position: relative;
+    display: inline-block;
+
+}
+
+.Healthfood-container img {
+    width: 40%;
+    height: 25%;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Healthfood-container li:nth-child(3n) {
+    clear: both; /* Retour à la ligne après chaque troisième élément */
+}
+
+.zoom-image {
+    width: 350%;
+    height: 450%;
+    object-fit: cover;
+}
+
+
+.zoom-container {
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    display: none;
+}
+
+
+
+.Healthfood-container li:active .zoom-container {
+    position: absolute;
+    left: 52%;
+    width: 200%; /* Utiliser 100% pour maintenir les proportions originales */
+    height: 200%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.Healthfood-container li:hover img{
+       cursor: zoom-in; /* Changer le curseur au survol du zoom-container dans li */
+}
+
+/********* Styles cosmetuque_products **********************************/
+
+/* CSS in styles.css or within a <style> tag in the HTML file */
+.cos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust alignment as needed */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cos-container li {
+    width: calc(33.33% - 20px); /* Adjust width or margins to fit your layout */
+    margin-bottom: 20px; /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+.cos-container li img {
+    max-width: 100%; /* Ensures the image doesn't exceed its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any default spacing */
+    width: 100%; /* Adjusts the width to fill the container */
+}
+
+.cos-container li {
+    width: calc(33.33% - 20px); /* Adjust width or margins to fit your layout */
+    margin-bottom: 20px; /* Adjust as needed */
+    box-sizing: border-box;
+    text-align: center; /* Optional: Aligns content in the center */
+}
+
+.cos-container li img {
+    width: 100%;
+    height: 200px; /* Set a specific height for all images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* CSS */
+.add-to-cart-btn {
+    background-color: red; /* Green background #4CAF50*/
+    border: none;
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding around text */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px; /* Adjust spacing as needed */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect */
+.add-to-cart-btn:hover {
+    background-color: #333; /* Darker green on hover #45a049*/
+}
+
+
+/* CSS discount annonncement */
+.discount-announcement {
+    overflow: hidden;
+    position: relative;
+    background: #fff; /* Change background color as needed */
+}
+
+.scrolling-content {
+    white-space: nowrap;
+    display: inline-block;
+    padding-left: 100%; /* Start position */
+    animation: marquee 20s linear infinite; /* Slower animation speed */
+}
+
+.scrolling-content img {
+    height: 40px; /* Adjust image height as needed */
+    margin-right: 20px; /* Add spacing between images and text */
+}
+
+.scrolling-content p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px; /* Adjust font size */
+    color: red; /* Change text color */
+    font-size: 18px; /* Adjust font size */
+    animation: marquee 30s linear infinite; /* Slower animation speed */
+
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* medical product*/
+.med-container img {
+   width: 300px; 
+   height: 300px;  
+   border-radius: 10px;   
+}
+.med ul{
+    display: flex; 
+    justify-content: space-around;  
+}
+.med-container li :hover {
+    transform: scale(1.2);
+    transition: 1.5s;
+}
+/*contact*/
+section{
+    width: 70%;
+    margin: 100px 210px;
+    margin-left: 15%;
+  }
+
+  .contact{
+    background-color: #333333;
+    height: 700px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .contacter{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #ffffff;
+    padding-top: 100px ;
+    font-size:xx-large;
+  }
+  .formulaire{
+    background-color: #333333;
+    border: none;
+    color: #eeeeee;
+    padding: 20px 10px;
+    outline: none ;
+    border-bottom: solid 0.5px grey;
+    font-size:xx-large;
+  }
+  textarea{
+    height: 100px;
+    
+  }
+  .button{
+    background-color: #ffdc35;
+    color: white;
+    border: none;
+    padding: 20px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .button:hover{
+    background-color: red;
+  }
+  a{
+    text-decoration: none;
+    font-size: x-large;
+  }
+strong{
+    color: red;
+}
+  
+  
+
+
