@@ -11,7 +11,7 @@ Langue(s) du site: Français/Anglais
 
 => Structure du Site (Pages) :
 
-index.html------------------------> Accueil
+index.html---------------------------> Accueil
 
 cosmetic_products.html------------> Products Cosmétiques
 
@@ -23,7 +23,7 @@ health_food_products.html---------> Health Foods
 
 medical_equipment_products.html---> Équipement Médical
 
-contact.html----------------------> Contact
+contact.html------------------------> Contact
 
 
 => Les détails du client :
