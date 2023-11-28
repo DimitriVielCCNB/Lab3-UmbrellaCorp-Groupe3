@@ -228,3 +228,19 @@ ul {
         transform: translateX(-100%);
     }
 }
+
+/* Styles pour la barre de sélection de langue */
+.lang-bar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+  }
+  
+  /* Styles optionnels pour la sélection */
+  select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  
