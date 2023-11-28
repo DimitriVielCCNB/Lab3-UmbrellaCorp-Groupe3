@@ -9,19 +9,9 @@
 </head>
 <body>
     <header>
-        <div class="lang-bar">
-            <select onchange="changeLang(this.value)">
-              <option value="fr">Français</option>
-              <option value="en">English</option>
-              <!-- Ajoutez d'autres options pour différentes langues -->
-            </select>
-          </div>
-          <div class="logo">
-            <a href="index.html">
-              <img src="../images/umbrella_logo.png" alt="Umbrella Corporation Logo">
-            </a>
-          </div>
-          
+        <div class="logo">
+            <img src="../images/umbrella_logo.png" alt="Umbrella Corporation Logo">
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
@@ -34,32 +24,32 @@
             </ul>
         </nav>
     </header>
-
-    <main>
-        <main>
-            <section id="contact">
-              <h2>Contactez-nous</h2>
-              <p>Pour toute question ou information complémentaire, n'hésitez pas à nous contacter :</p>
-              <form action="/envoyer" method="post">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
-                <br><br>
-                <label for="email">E-mail :</label>
-                <input type="email" id="email" name="email" required>
-                <br><br>
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <br><br>
-                <input type="submit" value="Envoyer">
-              </form>
-            </section>
-          </main>
-
-    </main>
-
+ 
+   
+        <section class="Contact1">
+            <div class="contact">
+              <div class="contacter">
+                <p>Pour nous <strong>contacter</strong></p>
+                <input class="formulaire" type="nom" placeholder="Nom" />
+                <input class="formulaire" type="courriel" placeholder="Courriel" />
+                <textarea
+                  class="formulaire"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Votre message..."
+                ></textarea>
+              </div>
+              <div class="button"><a href="#">Soumettre</a></div>
+            </div>
+          </section>
+ 
+ 
+ 
     <footer>
         <p>&copy; 2023 Umbrella Corporation. All rights reserved.</p>
     </footer>
-
+ 
 </body>
 </html>
