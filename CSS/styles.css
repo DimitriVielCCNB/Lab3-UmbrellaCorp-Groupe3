@@ -278,61 +278,60 @@ ul {
      transition: 1.5s;
  }
  /*contact*/
- section{
-     width: 50%;
+ /*contact*/
+.Contact1{
+    margin: 50px 400px;
+    width: 50%;
+   
+  }
  
-     margin: 50px 50px;
-     margin-left: 15%;
-   }
-  
-   .contact{
-     background-color: #333333;
-     height: 500px;
-     padding: 50px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-    
-   }
-   .contacter{
-     display: flex;
-     flex-direction: column;
-     width: 50%;
-     color: #ffffff;
-     padding-top: 50px ;
-     font-size:xx-large;
-   }
-   .formulaire{
-     background-color: #333333;
-     border: none;
-     color: #eeeeee;
-     padding: 20px 10px;
-     outline: none ;
-     border-bottom: solid 0.5px grey;
-     font-size:xx-large;
-   }
-   textarea{
-     height: 100px;
-    
-   }
-   .button{
-     background-color: #ffdc35;
-     color: white;
-     border: none;
-     padding: 20px 18px;
-     border-radius: 10px;
-     cursor: pointer;
-     font-weight: bold;
-     margin-top: 30px;
-   }
-   .button:hover{
-     background-color: red;
-   }
-   a{
-     text-decoration: none;
-     font-size: x-large;
-   }
- strong{
-     color: red;
-     
-    }
+  .contact{
+    background-color: #333333;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .contacter{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #ffffff;
+    padding-top: 50px ;
+   
+  }
+  .formulaire{
+    background-color: #333333;
+    border: none;
+    color: #eeeeee;
+    padding: 20px 10px;
+    outline: none ;
+    border-bottom: solid 0.5px grey;
+   
+  }
+  textarea{
+    height: 100px;
+   
+  }
+  .button{
+    background-color: #ffdc35;
+    color: white;
+    border: none;
+    padding: 10px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .button:hover{
+    background-color: red;
+  }
+  a{
+    text-decoration: none;
+  }
+strong{
+    color: red;
+}
+ 
