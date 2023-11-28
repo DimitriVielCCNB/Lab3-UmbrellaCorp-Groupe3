@@ -9,11 +9,17 @@
   </head>
   <body>
     <header>
+      <div class="lang-bar">
+        <select onchange="changeLang(this.value)">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+          <!-- Ajoutez d'autres options pour différentes langues -->
+        </select>
+      </div>
       <div class="logo">
-        <img
-          src="../images/umbrella_logo.png"
-          alt="Umbrella Corporation Logo"
-        />
+        <a href="index.html">
+          <img src="../images/umbrella_logo.png" alt="Umbrella Corporation Logo">
+        </a>
       </div>
       <nav>
         <ul>

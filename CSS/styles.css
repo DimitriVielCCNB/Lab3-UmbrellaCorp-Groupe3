@@ -12,6 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo img{
@@ -23,6 +24,7 @@ height: 150px;
 nav ul {
     list-style: none;
     display: flex;
+   
 }
 
 nav li {
@@ -32,6 +34,7 @@ nav li {
 nav ul li a {
     color: white;
     text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    font-size: 16px; 
     transition: color 0.3s, text-decoration 0.3s; /* Ajoute une transition pour un effet en douceur */
 }
 
