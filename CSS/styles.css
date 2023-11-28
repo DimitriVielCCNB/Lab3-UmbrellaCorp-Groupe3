@@ -242,5 +242,21 @@ ul {
     padding: 5px;
     font-size: 16px;
   }
+/* Styles pour aligner les champs du formulaire */
+.form-group {
+    margin-bottom: 15px;
+  }
   
+  label {
+    display: inline-block;
+    width: 100px; /* Ajustez la largeur du label selon vos besoins */
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 300px; /* Ajustez la largeur des champs input et textarea selon vos besoins */
+  }  
   
